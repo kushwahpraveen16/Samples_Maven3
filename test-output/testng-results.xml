@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3980" started-at="2022-11-15T19:19:38Z" finished-at="2022-11-15T19:19:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3980" started-at="2022-11-15T19:19:38Z" finished-at="2022-11-15T19:19:42Z">
+      <class name="Rest_Test.Test01_Get">
+        <test-method status="PASS" signature="test_01()[pri:0, instance:Rest_Test.Test01_Get@6b19b79]" name="test_01" duration-ms="2603" started-at="2022-11-16T00:49:38Z" finished-at="2022-11-16T00:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+      </class> <!-- Rest_Test.Test01_Get -->
+      <class name="Rest_Test.Get_Data">
+        <test-method status="PASS" signature="GetWeatherDetailsCondensed()[pri:0, instance:Rest_Test.Get_Data@75f32542]" name="GetWeatherDetailsCondensed" duration-ms="1005" started-at="2022-11-16T00:49:41Z" finished-at="2022-11-16T00:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherDetailsCondensed -->
+        <test-method status="PASS" signature="testResponsecode()[pri:0, instance:Rest_Test.Get_Data@75f32542]" name="testResponsecode" duration-ms="320" started-at="2022-11-16T00:49:42Z" finished-at="2022-11-16T00:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponsecode -->
+      </class> <!-- Rest_Test.Get_Data -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
